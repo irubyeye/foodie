@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styleCart.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cart">
+      <h3>Shopping Cart</h3>
+      <ul class="cart-items"></ul>
+      <div class="buttons">
+        <button class="cart-btn clear">Clear Cart</button>
+        <!-- <button class="cart-btn update">Change quantity</button> -->
+        <button class="cart-btn checkout">Checkout</button>
+      </div>
+    </div>
+
+    <form class="checkout-form" class="checkout-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" required />
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" required />
+    </form>
+    <script src="./scriptCart.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "delivery-application",
+  "version": "1.0.0",
+  "description": "Simple application for the food delivery",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
+  },
+  "author": "Mykola Lukashyn",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "slugify": "^1.6.6"
+  }
+}
